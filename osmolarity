@@ -1,0 +1,21 @@
+% to find osmosis per Liter
+percent=3.26;
+ml=100;
+Molarmass=40;
+ions=2;%example naoh will be two, how many will seperate so Na+ and OH-
+mlpercent=ml*percent;
+Lpercent=mlpercent/1000;
+molL=Lpercent/Molarmass;
+oSMOLperLanswer=molL*ions
+%to find osmosis percetange
+%osmolperL=molaritytimesnumberofparticles
+osmolperL=0.3;
+ion=2;%example ZNSO4-> ZN^2+ and SO4^2- would be two particles
+molarity=osmolperL/ion;
+Molarmass1=161.44;
+wperv=molarity*Molarmass1;
+percentanswer=wperv/10
+% to find osmosis per Liter based on molarity
+M=0.268;
+ions1=2;
+Osmalirtyanswer=M*ions1
